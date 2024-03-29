@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "brightscript",
+            "request": "launch",
+            "name": "launch app",
+            "stopOnEntry": false,
+            "host": "192.168.0.108",
+            "password": "rokudev",
+            "rootDir": "${workspaceFolder}/channel",
+            "outDir": "${workspaceFolder}/out",
+            "enableDebuggerAutoRecovery": false,
+            "enableVariablesPanel": true,
+            "stopDebuggerOnAppExit": false,
+            "enableDebugProtocol": false,
+            "rendezvousTracking": false,
+            "files": [
+                "manifest",
+                "images/**/*.*",
+                "sprites/**/*.*",
+                "sounds/**/*.*",
+                "source/**/*.*",
+            ],
+        }
+    ]
+}

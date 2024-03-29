@@ -5,12 +5,10 @@
 /logs
 /deploy
 /deploy_generator
-.vscode
 .roku-deploy-staging
 
 
 # IDE - VSCode
-.vscode/*
 .history/*
 
 *.DS_Store
