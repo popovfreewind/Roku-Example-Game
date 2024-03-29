@@ -1,3 +1,16 @@
-.out/
-.vscode/
+# OUT dir
+.idea
+/out
+/out1
+/logs
+/deploy
+/deploy_generator
+.vscode
+.roku-deploy-staging
+
+
+# IDE - VSCode
+.vscode/*
+.history/*
+
 *.DS_Store
